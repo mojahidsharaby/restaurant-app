@@ -9,7 +9,6 @@ import heroFood from '../assets/images/Hfood.jpg';
 function Home() {
 
   return (
-
     <>
 
       <section
