@@ -30,11 +30,11 @@ function Home() {
 
 
               <h1 className="display-4 fw-bold mb-3">
-                Delicious Food
+                Good Food
                 <br />
 
                 <span style={{ color: "var(--color-primary)" }}>
-                  at Fair Prices
+                  Good Mood
                 </span>
 
               </h1>
@@ -134,7 +134,7 @@ function Home() {
 
                   <div className="mt-auto d-flex justify-content-between align-items-center pt-2">
 
-                    <span className="fw-bold">EGP 65</span>
+                    <span className="fw-bold">EGP 25</span>
 
 
                     <span style={{ color: "#987b35" }}>★ 4.8</span>
@@ -172,7 +172,7 @@ function Home() {
 
                   <div className="mt-auto d-flex justify-content-between align-items-center pt-2">
 
-                    <span className="fw-bold">EGP 70</span>
+                    <span className="fw-bold">EGP 40</span>
 
 
                     <span style={{ color: "#987b35" }}>★ 4.9</span>
@@ -213,7 +213,7 @@ function Home() {
 
                   <div className="mt-auto d-flex justify-content-between align-items-center pt-2">
 
-                    <span className="fw-bold">EGP 40</span>
+                    <span className="fw-bold">EGP 30</span>
 
 
                     <span style={{ color: "#987b35" }}>★ 4.5</span>
