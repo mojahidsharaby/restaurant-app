@@ -1,0 +1,31 @@
+.restaurantNavbar .brand {
+    color: var(--color-text);
+    transition: color 0.3s;
+    
+}
+
+.restaurantNavbar .brand:hover,
+.restaurantNavbar .brand:focus {
+    color: var(--color-primary);
+
+}
+
+
+
+.restaurantNavbar .navList .navLink {
+    color: var(--color-text);
+    transition: color 0.2s;
+}
+
+.restaurantNavbar .navList .navLink:hover,
+.restaurantNavbar .navList .navLink:focus {
+    color: var(--color-primary);
+}
+
+
+
+.restaurantNavbar .navList .navLink.active {
+    color: var(--color-primary);
+    font-weight: 700;
+    font-size: large;
+}

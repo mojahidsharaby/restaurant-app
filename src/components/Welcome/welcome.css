@@ -1,0 +1,27 @@
+.welcome-screen {
+    background-color: rgba(199, 231, 251, 0.774);
+}
+
+.welcome-card {
+    width: 100%;
+    max-width: 400px;
+}
+
+.welcome-photo {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 3px solid #e2ebf8;
+}
+
+.btn.welcome-button {
+  background-color: rgb(52, 152, 219);
+  border: 1px solid rgb(52, 152, 219);
+  color: white;
+}
+
+.btn.welcome-button:hover {
+  background-color: rgb(28, 86, 143);
+  border-color: rgb(28, 86, 143);
+  color: white;
+}

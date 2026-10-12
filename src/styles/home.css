@@ -1,0 +1,86 @@
+/* hero sec*/
+.home-hero {
+
+  background-color: var(--color-background);
+}
+
+
+/* img*/
+
+.home-hero .home-hero-image {
+
+  display: block;
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+}
+
+.card-img-top.home-dish-image {
+
+  height: 210px;
+  object-fit: cover;
+}
+
+/* button */
+
+.btn.home-primary-btn {
+
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
+  color: #fff;
+}
+
+.btn.home-primary-btn:hover,
+.btn.home-primary-btn:focus ,.book-table {
+
+  background-color: var(--color-primary-hover);
+  border-color: var(--color-primary-hover);
+  color: #fff;
+  scale: 1.019;
+}
+
+/* rating */
+
+.home-rating {
+
+  color: #957833;
+  font-size: 0.9rem;
+}
+
+/* menu link */
+
+.home-view-link {
+
+  color: var(--color-primary);
+}
+
+.home-view-link:hover {
+
+  color: var(--color-primary-hover);
+}
+
+
+.home-details-btn {
+
+  width: 36px;
+
+  height: 36px;
+  background-color: var(--color-primary);
+  color: #fff;
+}
+
+.home-details-btn:hover {
+
+  background-color: var(--color-primary-hover);
+  color: #fff;
+}
+
+/* responsive*/
+
+@media (max-width: 767.98px) {
+
+  .home-hero .home-hero-image {
+
+    height: 180px;
+  }
+}

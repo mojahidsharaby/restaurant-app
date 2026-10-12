@@ -1,0 +1,35 @@
+:root {
+
+  --color-background: #FAF9F6;
+  --color-text: #2D312E;
+  --color-primary: #74815D;
+  --color-primary-hover: #5D6949;
+  --color-surface: #F0F1EC;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: var(--color-background);
+  color: var(--color-text);
+  font-family: "Poppins", sans-serif;
+  line-height: 1.5;
+}
+
+
+/* Form Focus Color */
+
+.form-control:focus,
+.form-select:focus {
+  border-color: var(--color-primary);
+
+  border-color: var(--color-primary);
+  box-shadow: 0 0 0 3px rgba(116, 129, 93, 0.29);
+
+}
