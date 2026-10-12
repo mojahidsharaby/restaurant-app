@@ -1,6 +1,7 @@
-import axios from "axios";
+import axios from 'axios';
 
 const api = axios.create({
+
   baseURL: "https://forkify-api.jonas.io/api/v2",
 });
 
@@ -10,6 +11,7 @@ const recipeSearches = [
   { search: "pizza", category: "Pizza" },
 ];
 
+// get recipe
 export async function getRecipes() {
   const responses = await Promise.all(
     recipeSearches.map(({ search, category }) =>
@@ -29,6 +31,7 @@ export async function getRecipes() {
   return responses.flat();
 }
 
+// get one recipe
 export async function getRecipe(id) {
   const { data } = await api.get(`/recipes/${id}`);
 
