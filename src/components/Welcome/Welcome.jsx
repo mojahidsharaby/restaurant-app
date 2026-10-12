@@ -33,21 +33,22 @@ function Welcome({ onPreview }) {
                 web application interfaces with modern React technologies.
               </p>
 
-              <button
-                className="btn welcome-button px-4 py-2"
-                onClick={onPreview}
-              >
-                Tap to preview my project
-              </button>
-
-            </div>
+         <button
+              className="btn welcome-button px-4 py-2"
+              onClick={onPreview}
+            >
+              Tap to preview my project
+            </button>
 
           </div>
 
-        </section>
-        
-      </>
-    );
+        </div>
+
+      </section>
+
+    </>
+
+  );
 
 }
 
